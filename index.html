@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First dApp</title>
+    <link rel="stylesheet" href="indec.css" />
+  </head>
+  <body>
+    <div>
+      <h1>This is my dApp!</h1>
+      <p>Here we can set or get the Number:</p>
+      <label for="mood">Input Number:</label> <br />
+      <input type="text" id="NUMBERS" />
+      <button onclick="getNUMBER()">Get NUMBER</button>
+      <button onclick="setNUMBER()">Set NUMBER</button>
+      <p id="showNUMBER"></p>
+    </div>
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+      type="application/javascript"
+    ></script>
+    <script src="block.js"></script>
+  </body>
+</html>
